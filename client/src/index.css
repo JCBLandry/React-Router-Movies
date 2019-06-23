@@ -67,6 +67,12 @@ body {
 }
 
 .home-button {
+  text-decoration: none;
   padding: 5px 10px;
   background-color: lightskyblue;
+}
+
+.textDec{
+  text-decoration: none;
+  color: black;
 }

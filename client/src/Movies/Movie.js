@@ -11,8 +11,7 @@ export default class Movie extends Component {
   }
 
   componentDidMount() {
-    this.fetchMovie(this.props.match.params.id)
-    const id = 1;
+    const { id } = this.props.match.params;
     this.fetchMovie(id);
   }
 
